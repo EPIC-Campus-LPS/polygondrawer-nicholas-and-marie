@@ -4,9 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f778e718-9c75-4e06-8fae-8f232972fb42" name="Changes" comment="model package">
+    <list default="true" id="f778e718-9c75-4e06-8fae-8f232972fb42" name="Changes" comment="Part 1 done">
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/model/Model.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/model/Model.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PolygonApplication.iml" beforeDir="false" afterPath="$PROJECT_DIR$/PolygonApplication.iml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -35,13 +36,25 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "master",
+    "last_directory_selection": "C:/Users/nicholasu750_lpsk12/IdeaProjects/polygondrawer-nicholas-and-marie/src/view",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0",
+    "settings.editor.selected.configurable": "preferences.lookFeel"
   }
-}</component>
+}]]></component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\nicholasu750_lpsk12\IdeaProjects\polygondrawer-nicholas-and-marie\src\view" />
+      <recent name="C:\Users\nicholasu750_lpsk12\IdeaProjects\polygondrawer-nicholas-and-marie\src\view\view" />
+      <recent name="C:\Users\nicholasu750_lpsk12\IdeaProjects\polygondrawer-nicholas-and-marie\src\temp" />
+    </key>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
