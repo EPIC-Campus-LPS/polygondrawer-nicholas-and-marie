@@ -3,6 +3,9 @@ package model;
 import java.awt.Polygon;
 import java.util.*;
 
+/**
+ *
+ */
 public class Model {
 
     // Keep track of number of polygons
@@ -11,46 +14,75 @@ public class Model {
     // Currently selected polygon
     Polygon current = null;
 
-    // Return polygons in the model
+    /**
+     * Returns polygons in the model
+     *
+     * @return next polygon
+     */
     public Iterator<Polygon> iterator() {
         return list.iterator();
     }
 
-    // Returns total number of polygons
+    /**
+     * Returns total number of polygons
+     *
+     * @return number of polygons
+     */
     public int size() {
         return list.size();
     }
 
-    // Clear all polygons in a model
+    /**
+     * Clears all polygons
+     */
     public void removeAll() {
         list.clear();
         current = null;
     }
 
-    // Add polygon
+    /**
+     * Adds polygon
+     *
+     * @param poly polygon to add to arraylist
+     */
     public void addPolygon(Polygon poly) {
             list.add(poly);
     }
 
-    // Select polygon to be current, if already exists
+    /**
+     * Selects a polygon to be current
+     *
+     * @param poly to be current
+     */
     public void makeCurrent(Polygon poly) {
         if (list.contains(poly)) {
             current = poly;
         }
     }
 
-    // Unselect current polygon, if one had been selected
+    /**
+     * Unselects current polygon
+     */
     public void unselectPolygon() {
         current = null;
     }
 
-    // Return selected polygon
+    /**
+     * Returns selected polygon
+     *
+     * @return selected polygon
+     */
     public Optional<Polygon> getSelected() {
         Optional<Polygon> option = Optional.ofNullable(current);
         return option;
     }
 
-    // Determine if polygon is the current one
+    /**
+     * Determines if polygon is the current one
+     *
+     * @param poly to determine if current
+     * @return true/false if polygon is current
+     */
     public boolean isSelected(Polygon poly) {
         return (poly != null && poly == current);
     }

@@ -4,10 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f778e718-9c75-4e06-8fae-8f232972fb42" name="Changes" comment="Part 1 done">
+    <list default="true" id="f778e718-9c75-4e06-8fae-8f232972fb42" name="Changes" comment="model package">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/view/Application.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/view/Application.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/view/PolygonDrawer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/view/PolygonDrawer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/model/Model.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/model/Model.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -21,41 +20,7 @@
       </list>
     </option>
   </component>
-  <component name="Git.Merge.Settings">
-    <option name="BRANCH" value="nicholas-view" />
-  </component>
   <component name="Git.Settings">
-    <excluded-from-favorite>
-      <branch-storage>
-        <map>
-          <entry type="LOCAL">
-            <value>
-              <list>
-                <branch-info repo="$PROJECT_DIR$" source="master" />
-              </list>
-            </value>
-          </entry>
-        </map>
-      </branch-storage>
-    </excluded-from-favorite>
-    <favorite-branches>
-      <branch-storage>
-        <map>
-          <entry type="LOCAL">
-            <value>
-              <list>
-                <branch-info repo="$PROJECT_DIR$" source="nicholas-view" />
-              </list>
-            </value>
-          </entry>
-        </map>
-      </branch-storage>
-    </favorite-branches>
-    <option name="RECENT_BRANCH_BY_REPOSITORY">
-      <map>
-        <entry key="$PROJECT_DIR$" value="master" />
-      </map>
-    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="MarkdownSettingsMigration">
@@ -74,7 +39,6 @@
   &quot;keyToString&quot;: {
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;UI_DESIGNER_EDITOR_MODE.PaletteManager.SHOW&quot;: &quot;true&quot;,
     &quot;git-widget-placeholder&quot;: &quot;master&quot;
   }
 }</component>
@@ -87,37 +51,27 @@
       <option name="presentableId" value="Default" />
       <updated>1707235430520</updated>
     </task>
-    <task id="LOCAL-00001" summary="start of polygon designer ui">
+    <task id="LOCAL-00001" summary="model package">
       <option name="closed" value="true" />
-      <created>1707331646449</created>
+      <created>1707327309722</created>
       <option name="number" value="00001" />
       <option name="presentableId" value="LOCAL-00001" />
       <option name="project" value="LOCAL" />
-      <updated>1707331646449</updated>
+      <updated>1707327309722</updated>
     </task>
-    <task id="LOCAL-00002" summary="halfway through Boundary concepts">
+    <task id="LOCAL-00002" summary="model package">
       <option name="closed" value="true" />
-      <created>1707332419501</created>
+      <created>1707327960516</created>
       <option name="number" value="00002" />
       <option name="presentableId" value="LOCAL-00002" />
       <option name="project" value="LOCAL" />
-      <updated>1707332419501</updated>
+      <updated>1707327960516</updated>
     </task>
-    <task id="LOCAL-00003" summary="Part 1 done">
-      <option name="closed" value="true" />
-      <created>1707497288939</created>
-      <option name="number" value="00003" />
-      <option name="presentableId" value="LOCAL-00003" />
-      <option name="project" value="LOCAL" />
-      <updated>1707497288939</updated>
-    </task>
-    <option name="localTasksCounter" value="4" />
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="start of polygon designer ui" />
-    <MESSAGE value="halfway through Boundary concepts" />
-    <MESSAGE value="Part 1 done" />
-    <option name="LAST_COMMIT_MESSAGE" value="Part 1 done" />
+    <MESSAGE value="model package" />
+    <option name="LAST_COMMIT_MESSAGE" value="model package" />
   </component>
 </project>
