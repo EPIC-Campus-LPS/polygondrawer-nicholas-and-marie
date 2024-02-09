@@ -1,14 +1,18 @@
 package view;
 
+import model.Model;
+
 import javax.swing.*;
 import javax.swing.border.EmptyBorder;
 import java.awt.*;
 import java.awt.event.InputEvent;
 import java.awt.event.KeyEvent;
+import java.awt.event.MouseAdapter;
+import java.awt.event.MouseEvent;
 
 public class Application extends JFrame{
 
-    private PolygonDrawer contentPane;
+    private JPanel contentPane;
     private JMenu menu_Polygon;
     private JMenu menu_Edit;
     private JMenuItem item_Reset;
@@ -16,7 +20,10 @@ public class Application extends JFrame{
     private JMenuBar menuBar;
     private Model model;
 
-    public Application() {
+    public Application(Model m) {
+        super();
+        this.model = m;
+
         setTitle("Polygon Drawing Application");
         setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         setBounds(100,100,450,300);
@@ -38,15 +45,27 @@ public class Application extends JFrame{
         item_RemoveLast.setAccelerator(KeyStroke.getKeyStroke(KeyEvent.VK_Z, 0));
         menu_Edit.add(item_RemoveLast);
 
-        contentPane = new PolygonDrawer();
+        contentPane = new PolygonDrawer(model);
+
+        contentPane.addMouseListener(new MouseAdapter() {
+            @Override
+            public void mouseClicked(MouseEvent e){
+
+            }
+        });
+
         contentPane.setBorder(new EmptyBorder(5,5,5,5));
         contentPane.setLayout(new BorderLayout(0,0));
         setContentPane(contentPane);
+    }
+
+    public Application(){
+        this(new Model());
     }
 
     public JMenuItem getUndoMenuItem() {return item_RemoveLast;}
 
     public JMenuItem getResetMenuItem() {return item_Reset;}
 
-    public PolygonDrawer getPolygonDrawer() {return contentPane;}
+    public JPanel getPolygonDrawer() {return contentPane;}
 }
