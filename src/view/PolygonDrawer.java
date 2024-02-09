@@ -9,10 +9,19 @@ import java.util.Iterator;
 public class PolygonDrawer extends JPanel {
     public static final int Radius = 2;
     private Model model;
+
+    /**
+     * Base PolygonDrawer class
+     * @param m input model
+     */
     public PolygonDrawer(Model m) {
         this.model = m;
     }
 
+    /**
+     * Draws the circles around points and lines between points
+     * @param g Input graphics, which only goes into super()
+     */
     @Override
     protected void paintComponent(Graphics g) {
         super.paintComponent(g);

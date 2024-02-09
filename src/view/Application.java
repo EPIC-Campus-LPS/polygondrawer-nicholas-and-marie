@@ -20,6 +20,10 @@ public class Application extends JFrame{
     private JMenuBar menuBar;
     private Model model;
 
+    /**
+     * Main Application Class
+     * @param m input model
+     */
     public Application(Model m) {
         super();
         this.model = m;
@@ -59,13 +63,28 @@ public class Application extends JFrame{
         setContentPane(contentPane);
     }
 
+    /**
+     * Application class for Window Builder
+     */
     public Application(){
         this(new Model());
     }
 
+    /**
+     * Gets the undo item
+     * @return undo item
+     */
     public JMenuItem getUndoMenuItem() {return item_RemoveLast;}
 
+    /**
+     * Gets the reset item
+     * @return reset item
+     */
     public JMenuItem getResetMenuItem() {return item_Reset;}
 
+    /**
+     * Gets the Polygon Drawer
+     * @return The Polygon Drawer, named Content Pane
+     */
     public JPanel getPolygonDrawer() {return contentPane;}
 }
