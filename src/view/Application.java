@@ -14,6 +14,7 @@ public class Application extends JFrame{
     private JMenuItem item_Reset;
     private JMenuItem item_RemoveLast;
     private JMenuBar menuBar;
+    private Model model;
 
     public Application() {
         setTitle("Polygon Drawing Application");
@@ -42,4 +43,10 @@ public class Application extends JFrame{
         contentPane.setLayout(new BorderLayout(0,0));
         setContentPane(contentPane);
     }
+
+    public JMenuItem getUndoMenuItem() {return item_RemoveLast;}
+
+    public JMenuItem getResetMenuItem() {return item_Reset;}
+
+    public PolygonDrawer getPolygonDrawer() {return contentPane;}
 }
