@@ -1,5 +1,7 @@
 package view;
 
+import controller.AddPointController;
+import controller.CompletePolygonController;
 import model.Model;
 
 import javax.swing.*;
@@ -54,12 +56,19 @@ public class Application extends JFrame{
         contentPane.addMouseListener(new MouseAdapter() {
             @Override
             public void mouseClicked(MouseEvent e){
-
+                if(SwingUtilities.isRightMouseButton(e)) {
+                    new CompletePolygonController(Application.this, model).complete();
+                }else {
+                    new AddPointController(Application.this, model).addPoint(e.getPoint());
+                }
             }
         });
 
         contentPane.setBorder(new EmptyBorder(5,5,5,5));
         contentPane.setLayout(new BorderLayout(0,0));
+        Color purple = new Color(130,0,220);
+        contentPane.setBackground(purple);
+        contentPane.getColorModel();
         setContentPane(contentPane);
     }
 

@@ -4,9 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f778e718-9c75-4e06-8fae-8f232972fb42" name="Changes" comment="completed update menu class and method">
+    <list default="true" id="f778e718-9c75-4e06-8fae-8f232972fb42" name="Changes" comment="Removed source form folders and generated first javadoc">
+      <change afterPath="$PROJECT_DIR$/src/controller/AddPointController.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/controller/CompletePolygonController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PolygonApplication.iml" beforeDir="false" afterPath="$PROJECT_DIR$/PolygonApplication.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/view/Application.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/view/Application.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/view/PolygonDrawer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/view/PolygonDrawer.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -35,16 +40,24 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "master",
+    "last_directory_selection": "C:/Users/nicholasu750_lpsk12/IdeaProjects/polygondrawer-nicholas-and-marie/src/view",
+    "last_opened_file_path": "C:/Users/nicholasu750_lpsk12/IdeaProjects/conway-s-game-of-life-team-2-after-wordle",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0",
+    "settings.editor.selected.configurable": "preferences.lookFeel"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\mariev718_lpsk12\IdeaProjects\polygondrawer-nicholas-and-marie2\src" />
+      <recent name="C:\Users\nicholasu750_lpsk12\IdeaProjects\polygondrawer-nicholas-and-marie\src\view" />
+      <recent name="C:\Users\nicholasu750_lpsk12\IdeaProjects\polygondrawer-nicholas-and-marie\src\view\view" />
+      <recent name="C:\Users\nicholasu750_lpsk12\IdeaProjects\polygondrawer-nicholas-and-marie\src\temp" />
     </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -72,28 +85,31 @@
       <option name="project" value="LOCAL" />
       <updated>1707327960516</updated>
     </task>
-    <task id="LOCAL-00003" summary="model package">
+    <task id="LOCAL-00003" summary="Removed source form folders and generated first javadoc">
       <option name="closed" value="true" />
-      <created>1707839636861</created>
+      <created>1707501146414</created>
       <option name="number" value="00003" />
       <option name="presentableId" value="LOCAL-00003" />
       <option name="project" value="LOCAL" />
-      <updated>1707839636861</updated>
+      <updated>1707501146414</updated>
     </task>
-    <task id="LOCAL-00004" summary="completed update menu class and method">
-      <option name="closed" value="true" />
-      <created>1707840781986</created>
-      <option name="number" value="00004" />
-      <option name="presentableId" value="LOCAL-00004" />
-      <option name="project" value="LOCAL" />
-      <updated>1707840781986</updated>
-    </task>
-    <option name="localTasksCounter" value="5" />
+    <option name="localTasksCounter" value="4" />
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="model package" />
-    <MESSAGE value="completed update menu class and method" />
-    <option name="LAST_COMMIT_MESSAGE" value="completed update menu class and method" />
+    <MESSAGE value="Removed source form folders and generated first javadoc" />
+    <option name="LAST_COMMIT_MESSAGE" value="Removed source form folders and generated first javadoc" />
   </component>
 </project>
