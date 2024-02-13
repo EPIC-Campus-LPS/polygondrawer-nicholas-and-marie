@@ -15,7 +15,7 @@ public class Model {
     Polygon current = null;
 
     /**
-     * Returns polygons in the model
+     * Returns an iterator of all the polygon objects
      *
      * @return next polygon
      */
