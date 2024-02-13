@@ -1,3 +1,5 @@
+package controller;
+
 import model.Model;
 import view.Application;
 
