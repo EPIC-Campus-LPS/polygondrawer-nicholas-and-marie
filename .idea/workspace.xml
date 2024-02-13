@@ -4,8 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f778e718-9c75-4e06-8fae-8f232972fb42" name="Changes" comment="model package">
-      <change afterPath="$PROJECT_DIR$/src/controller/UpdateMenu.java" afterDir="false" />
+    <list default="true" id="f778e718-9c75-4e06-8fae-8f232972fb42" name="Changes" comment="completed update menu class and method">
+      <change afterPath="$PROJECT_DIR$/src/controller/CompletePolygonController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -80,11 +80,20 @@
       <option name="project" value="LOCAL" />
       <updated>1707839636861</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="completed update menu class and method">
+      <option name="closed" value="true" />
+      <created>1707840781986</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1707840781986</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="model package" />
-    <option name="LAST_COMMIT_MESSAGE" value="model package" />
+    <MESSAGE value="completed update menu class and method" />
+    <option name="LAST_COMMIT_MESSAGE" value="completed update menu class and method" />
   </component>
 </project>
