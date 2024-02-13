@@ -2,6 +2,7 @@ package view;
 
 import controller.AddPointController;
 import controller.CompletePolygonController;
+import controller.ResetController;
 import model.Model;
 
 import javax.swing.*;
@@ -11,6 +12,8 @@ import java.awt.event.InputEvent;
 import java.awt.event.KeyEvent;
 import java.awt.event.MouseAdapter;
 import java.awt.event.MouseEvent;
+import java.awt.event.ActionListener;
+import java.awt.event.ActionEvent;
 
 public class Application extends JFrame{
 
@@ -43,12 +46,20 @@ public class Application extends JFrame{
         item_Reset = new JMenuItem("Reset");
         item_Reset.setAccelerator(KeyStroke.getKeyStroke(KeyEvent.VK_N, InputEvent.CTRL_MASK));
         menu_Polygon.add(item_Reset);
+        item_Reset.addActionListener(new ActionListener() {
+
+            @Override
+            public void actionPerformed(ActionEvent e) {
+                new ResetController(Application.this, model).reset();
+            }
+
+        });
 
         menu_Edit = new JMenu("Edit");
         menuBar.add(menu_Edit);
 
         item_RemoveLast = new JMenuItem("Remove Last");
-        item_RemoveLast.setAccelerator(KeyStroke.getKeyStroke(KeyEvent.VK_Z, 0));
+        item_RemoveLast.setAccelerator(KeyStroke.getKeyStroke(KeyEvent.VK_Z, InputEvent.CTRL_MASK));
         menu_Edit.add(item_RemoveLast);
 
         contentPane = new PolygonDrawer(model);
