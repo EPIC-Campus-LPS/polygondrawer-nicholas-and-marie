@@ -30,9 +30,9 @@ public class PolygonDrawer extends JPanel {
         while (it.hasNext()){
             Polygon poly = it.next();
 
-            g.setColor(Color.black);
+            g.setColor(new Color(229,63,113));
             if (model.isSelected(poly)) {
-                g.setColor(Color.red);
+                g.setColor(new Color(248,159,91));
             }
 
             if(poly.npoints >= 3){

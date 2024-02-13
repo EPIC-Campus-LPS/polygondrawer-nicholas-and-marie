@@ -85,8 +85,7 @@ public class Application extends JFrame{
 
         contentPane.setBorder(new EmptyBorder(5,5,5,5));
         contentPane.setLayout(new BorderLayout(0,0));
-        Color purple = new Color(130,0,220);
-        contentPane.setBackground(purple);
+        contentPane.setBackground(new Color(156,53,135));
         contentPane.getColorModel();
         setContentPane(contentPane);
     }
