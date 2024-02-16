@@ -28,7 +28,7 @@ public class Application extends JFrame{
     private Model model;
 
     /**
-     * Main Application Class
+     * Main Application Class, shows the display and UI on the application
      * @param m input model
      */
     public Application(Model m) {

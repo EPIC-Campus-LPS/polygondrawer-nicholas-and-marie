@@ -3,6 +3,9 @@ package controller;
 import model.Model;
 import view.Application;
 
+/**
+ * The controller for updating the menu
+ */
 public class UpdateMenu {
 
     /**

@@ -3,6 +3,9 @@ package controller;
 import model.Model;
 import view.Application;
 
+/**
+ * Controls the Reset Function
+ */
 public class ResetController {
 
     final Model model;
@@ -15,6 +18,9 @@ public class ResetController {
 
     }
 
+    /**
+     * Resets the display
+     */
     public void reset() {
 
         model.removeAll();

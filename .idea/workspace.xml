@@ -4,8 +4,49 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f778e718-9c75-4e06-8fae-8f232972fb42" name="Changes" comment="Undo Controller">
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2_13_2024_9_24_AM__Changes_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2_13_2024_9_24_AM__Changes_.xml" afterDir="false" />
+    <list default="true" id="f778e718-9c75-4e06-8fae-8f232972fb42" name="Changes" comment="More color!">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaDoc/Main.html" beforeDir="false" afterPath="$PROJECT_DIR$/JavaDoc/Main.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaDoc/allclasses-index.html" beforeDir="false" afterPath="$PROJECT_DIR$/JavaDoc/allclasses-index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaDoc/allpackages-index.html" beforeDir="false" afterPath="$PROJECT_DIR$/JavaDoc/allpackages-index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaDoc/constant-values.html" beforeDir="false" afterPath="$PROJECT_DIR$/JavaDoc/constant-values.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaDoc/element-list" beforeDir="false" afterPath="$PROJECT_DIR$/JavaDoc/element-list" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaDoc/help-doc.html" beforeDir="false" afterPath="$PROJECT_DIR$/JavaDoc/help-doc.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaDoc/index-files/index-1.html" beforeDir="false" afterPath="$PROJECT_DIR$/JavaDoc/index-files/index-1.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaDoc/index-files/index-2.html" beforeDir="false" afterPath="$PROJECT_DIR$/JavaDoc/index-files/index-2.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaDoc/index-files/index-3.html" beforeDir="false" afterPath="$PROJECT_DIR$/JavaDoc/index-files/index-3.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaDoc/index-files/index-4.html" beforeDir="false" afterPath="$PROJECT_DIR$/JavaDoc/index-files/index-4.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaDoc/index-files/index-5.html" beforeDir="false" afterPath="$PROJECT_DIR$/JavaDoc/index-files/index-5.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaDoc/index-files/index-6.html" beforeDir="false" afterPath="$PROJECT_DIR$/JavaDoc/index-files/index-6.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaDoc/index-files/index-7.html" beforeDir="false" afterPath="$PROJECT_DIR$/JavaDoc/index-files/index-7.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaDoc/index-files/index-8.html" beforeDir="false" afterPath="$PROJECT_DIR$/JavaDoc/index-files/index-8.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaDoc/index-files/index-9.html" beforeDir="false" afterPath="$PROJECT_DIR$/JavaDoc/index-files/index-9.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaDoc/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/JavaDoc/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaDoc/member-search-index.js" beforeDir="false" afterPath="$PROJECT_DIR$/JavaDoc/member-search-index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaDoc/model/Model.html" beforeDir="false" afterPath="$PROJECT_DIR$/JavaDoc/model/Model.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaDoc/model/package-summary.html" beforeDir="false" afterPath="$PROJECT_DIR$/JavaDoc/model/package-summary.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaDoc/model/package-tree.html" beforeDir="false" afterPath="$PROJECT_DIR$/JavaDoc/model/package-tree.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaDoc/overview-summary.html" beforeDir="false" afterPath="$PROJECT_DIR$/JavaDoc/overview-summary.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaDoc/overview-tree.html" beforeDir="false" afterPath="$PROJECT_DIR$/JavaDoc/overview-tree.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaDoc/package-search-index.js" beforeDir="false" afterPath="$PROJECT_DIR$/JavaDoc/package-search-index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaDoc/package-summary.html" beforeDir="false" afterPath="$PROJECT_DIR$/JavaDoc/package-summary.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaDoc/package-tree.html" beforeDir="false" afterPath="$PROJECT_DIR$/JavaDoc/package-tree.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaDoc/search.html" beforeDir="false" afterPath="$PROJECT_DIR$/JavaDoc/search.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaDoc/serialized-form.html" beforeDir="false" afterPath="$PROJECT_DIR$/JavaDoc/serialized-form.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaDoc/type-search-index.js" beforeDir="false" afterPath="$PROJECT_DIR$/JavaDoc/type-search-index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaDoc/view/Application.html" beforeDir="false" afterPath="$PROJECT_DIR$/JavaDoc/view/Application.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaDoc/view/PolygonDrawer.html" beforeDir="false" afterPath="$PROJECT_DIR$/JavaDoc/view/PolygonDrawer.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaDoc/view/package-summary.html" beforeDir="false" afterPath="$PROJECT_DIR$/JavaDoc/view/package-summary.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaDoc/view/package-tree.html" beforeDir="false" afterPath="$PROJECT_DIR$/JavaDoc/view/package-tree.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/controller/AddPointController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/controller/AddPointController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/controller/CompletePolygonController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/controller/CompletePolygonController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/controller/QuitController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/controller/QuitController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/controller/ResetController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/controller/ResetController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/controller/UndoController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/controller/UndoController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/controller/UpdateMenu.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/controller/UpdateMenu.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/model/Model.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/model/Model.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/view/Application.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/view/Application.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/view/PolygonDrawer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/view/PolygonDrawer.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -95,7 +136,23 @@
       <option name="project" value="LOCAL" />
       <updated>1707845144152</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Color!">
+      <option name="closed" value="true" />
+      <created>1707845702232</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1707845702232</updated>
+    </task>
+    <task id="LOCAL-00006" summary="More color!">
+      <option name="closed" value="true" />
+      <created>1707845797193</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1707845797193</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -113,6 +170,8 @@
     <MESSAGE value="model package" />
     <MESSAGE value="Removed source form folders and generated first javadoc" />
     <MESSAGE value="Undo Controller" />
-    <option name="LAST_COMMIT_MESSAGE" value="Undo Controller" />
+    <MESSAGE value="Color!" />
+    <MESSAGE value="More color!" />
+    <option name="LAST_COMMIT_MESSAGE" value="More color!" />
   </component>
 </project>

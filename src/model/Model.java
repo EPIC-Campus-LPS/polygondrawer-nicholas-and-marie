@@ -4,7 +4,7 @@ import java.awt.Polygon;
 import java.util.*;
 
 /**
- *
+ * The Model class for the Application
  */
 public class Model {
 

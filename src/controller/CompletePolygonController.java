@@ -4,6 +4,9 @@ import model.Model;
 import view.Application;
 import controller.UpdateMenu;
 
+/**
+ * Controller for assigning a polygon as complete
+ */
 public class CompletePolygonController {
     final Model model;
     final Application app;
@@ -13,6 +16,9 @@ public class CompletePolygonController {
         this.model = m;
     }
 
+    /**
+     * Marks a polygon as complete and unselects it
+     */
     public void complete() {
         model.unselectPolygon();
         UpdateMenu.updateMenu(app, model);

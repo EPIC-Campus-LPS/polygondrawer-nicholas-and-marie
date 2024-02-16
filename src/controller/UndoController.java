@@ -7,6 +7,9 @@ import java.awt.*;
 import java.util.Iterator;
 import java.util.Optional;
 
+/**
+ * Controller for the Undo Function
+ */
 public class UndoController {
     final Model model;
     final Application app;
@@ -15,6 +18,9 @@ public class UndoController {
         this.model = m;
     }
 
+    /**
+     * Removes the point that was most recently made on the display
+     */
     public void removeLastPoint(){
         Optional<Polygon> selected = model.getSelected();
         if(selected.isPresent()){

@@ -11,7 +11,7 @@ public class PolygonDrawer extends JPanel {
     private Model model;
 
     /**
-     * Base PolygonDrawer class
+     * The actual application which draws apps
      * @param m input model
      */
     public PolygonDrawer(Model m) {
